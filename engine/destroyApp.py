@@ -4,8 +4,8 @@ import moni
 import mysql.connector
 from datetime import date
 
-connectiondb = mysql.connector.connect(host="host", user="user",
-                                       password="password", database="database", port=3306)
+connectiondb = mysql.connector.connect(host="localhost", user="root",
+                                       password="", database="Final_year", port=3306)
 cursordb = connectiondb.cursor()
 print(connectiondb)
 

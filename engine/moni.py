@@ -11,7 +11,7 @@ if sys.platform in ['Windows', 'win32', 'cygwin']:
     import win32gui
     import uiautomation as auto
 
-connectiondb = mysql.connector.connect(host="host", user="user", password="password", database="database", port=3306)
+connectiondb = mysql.connector.connect(host="localhost", user="root", password="", database="Final_year", port=3306)
 cursordb = connectiondb.cursor()
 
 b = list()
